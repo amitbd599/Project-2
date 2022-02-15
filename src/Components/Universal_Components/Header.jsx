@@ -15,7 +15,11 @@ const Header = () => {
           <Nav className="ms-auto">
             <Nav.Link href="#features">Home</Nav.Link>
             <Nav.Link href="#pricing">Pricing</Nav.Link>
-            <NavDropdown title="Dropdown" id="collasible-nav-dropdown" className="">
+            <NavDropdown
+              title="Dropdown"
+              id="collasible-nav-dropdown"
+              className=""
+            >
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
@@ -29,7 +33,7 @@ const Header = () => {
             <Nav.Link href="#features">Features</Nav.Link>
             <Nav.Link href="#pricing">Pricing</Nav.Link>
           </Nav>
-          <Link className="theme-primary-color my-btn-primary ms-5">
+          <Link className="theme-primary-bg my-btn-primary ms-5">
             Sign Up Free
           </Link>
         </Navbar.Collapse>

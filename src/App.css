@@ -1,26 +1,115 @@
-
-.my-btn-primary{
-    border: 2px solid #12bf7c;
-    padding: 10px 40px;
-    color: #fff;
-    border-radius: 5px;
+.my-btn-primary {
+  border: 2px solid #12bf7c;
+  padding: 10px 40px;
+  color: #fff;
+  border-radius: 5px;
 }
-.my-btn-primary:hover{
-    background-color: #fff;
-    color: #12bf7c;
-    border: 2px solid #12bf7c;
+.my-btn-primary:hover {
+  background-color: #fff;
+  color: #12bf7c;
+  border: 2px solid #12bf7c;
 }
-
 
 /* Header Section */
 .navbar-light .navbar-nav .nav-link {
-    color: #2b235b !important;
-    font-size: 18px;
+  color: #2b235b !important;
+  font-size: 18px;
 }
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #12bf7c !important;
+  color: #12bf7c !important;
 }
-.dropdown-item:focus, .dropdown-item:hover {
-    color: #1e2125;
-    background-color: #12bf7c;
-  }
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #1e2125;
+  background-color: #12bf7c;
+}
+
+/* Hero Section */
+
+.heroSection {
+  position: relative;
+  margin-top: 70px;
+  height: 1050px;
+}
+.introBar {
+  background-color: rgba(39, 39, 39, 0.082);
+  display: inline-block;
+  padding: 3px 13px;
+  border-radius: 20px;
+  margin-top: 130px;
+}
+.introBar p {
+  display: inline-block;
+  font-size: 12px;
+  padding: 0px 10px;
+  border-radius: 20px;
+}
+.text-theme-shape {
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+.heading-text {
+  margin-top: 42px;
+}
+.heading-text .text-1,
+.heading-text .text-2 {
+  font-size: 70px;
+}
+
+.heading-text .text-2 {
+  margin-top: 22px !important;
+  font-weight: 700;
+}
+.bannner-bg {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+}
+.bannner-bg .ball {
+  position: absolute;
+  left: -13px;
+  top: 48px;
+}
+.bannner-bg .shape {
+  position: absolute;
+  left: 496px;
+  top: 708px;
+}
+.imageSection {
+  position: absolute;
+  right: -55px;
+}
+.circle-bg {
+  position: absolute;
+  border-radius: 50%;
+  height: 1000px;
+  width: 906px;
+  top: -17%;
+  right: -42%;
+  z-index: -1;
+  background: #fdf5e8;
+}
+.leftFlower,
+.rightFlower {
+  position: absolute;
+}
+.leftFlower {
+  left: -93px;
+  z-index: -1;
+  bottom: 97px;
+}
+.rightFlower {
+  right: -69px;
+  bottom: 83px;
+  z-index: -1;
+}
+
+
+/* What we Do */
+
+.what-we-do-text h4{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
