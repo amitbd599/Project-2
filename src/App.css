@@ -1,3 +1,7 @@
+.App {
+  overflow: hidden !important;
+}
+
 .my-btn-primary {
   border: 2px solid #12bf7c;
   padding: 10px 40px;
@@ -70,6 +74,7 @@
   position: absolute;
   left: -13px;
   top: 48px;
+  animation-name: fadeInDown;
 }
 .bannner-bg .shape {
   position: absolute;
@@ -105,11 +110,128 @@
   z-index: -1;
 }
 
-
 /* What we Do */
 
-.what-we-do-text h4{
-    font-size: 20px;
-    font-weight: 600;
-    letter-spacing: 3px;
+.what-we-do-text h4 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.home-items-card {
+  position: relative;
+}
+.home-items-card .wrap {
+  text-align: center;
+  padding: 35px 25px;
+  box-shadow: 0px 20px 60px 0px rgb(1 51 32 / 10%);
+  border-radius: 5px;
+  background: #fff;
+}
+.home-items-card h2 {
+  font-weight: 600;
+}
+/* SELECTED WORKS */
+.Home_Selected_Work {
+  margin-top: -150px;
+  z-index: -9;
+  /* max-width: 1290px !important; */
+}
+.Home_Selected_Work .Home_Selected_Work_container {
+  min-height: 960px;
+  border-radius: 10px;
+}
+.Home_Selected_Work .container .row {
+  padding-top: 300px;
+}
+.dotImg {
+  top: -28px;
+  right: -42px;
+  z-index: 9;
+}
+.selectedAppImg {
+  z-index: 999;
+}
+.theme-primary-outline-bg {
+  background-color: #ffffff;
+  color: #12bf7c !important;
+}
+.selectedAppImg {
+  /* transition: all 0.5s linear; */
+  position: relative;
+  animation: fadeInDown 2s linear 1s alternate-reverse;
+}
+
+@keyframes fadeInDown {
+  0% {
+    transform: scale(110%);
+  }
+  100% {
+    transform: scale(100%);
+  }
+}
+
+/* Home_section_part_1 */
+
+.Home_section_part_1 .app-download-image {
+  background-color: #0899613f;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+}
+.Home_section_part_1 .my-btn-primary {
+  padding: 5px 15px;
+}
+.Home_section_part_1 .app-download-image > img {
+  margin-top: -12px;
+}
+.Home_section_part_1 ul > li {
+  margin-top: 10px;
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.my-btn-primary .btn-two {
+  display: block;
+}
+
+/* Home_join_section */
+
+.Home_join_section {
+  margin-top: 150px;
+  border-radius: 10px;
+  min-height: 576px;
+  background-color: #d9e6ff;
+  position: relative;
+  overflow: hidden;
+}
+.Home_join_section p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #76747f;
+}
+.Home_join_section .my-btn-primary {
+  background-color: #1a133b;
+  border: none;
+  padding: 5px 15px;
+}
+.Home_join_section .my-btn-primary:hover {
+  background-color: #12bf7c;
+  color: #fff;
+  border: none;
+}
+.Home_join_section .Home_join_section_Img_1 {
+  position: absolute;
+  top: -5px;
+  left: 73px;
+}
+.Home_join_section .Home_join_section_triangle {
+  position: absolute;
+  top: 57px;
+  right: 73px;
+}
+.Home_join_section .Home_join_section_Img_2 {
+  position: absolute;
+  top: 461px;
+  right: 73px;
 }

@@ -80,7 +80,7 @@ fieldset {
 *,
 *::before,
 *::after {
-    transition: all .1s ease-in-out;
+    transition: all .1s linear;
 }
 
 form * {
@@ -1334,7 +1334,187 @@ form * {
 }
 
 
+/* Font size */
 
+.fs-5{
+    font-size: 5px;
+}
+.fs-6{
+    font-size: 6px;
+}
+
+.fs-10 {
+    font-size: 10px;
+}
+.fs-11 {
+    font-size: 11px;
+}
+.fs-12 {
+    font-size: 12px;
+}
+.fs-13 {
+    font-size: 13px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+.fs-17 {
+    font-size: 17px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+.fs-19 {
+    font-size: 19px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-35 {
+    font-size: 35px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.fs-45 {
+    font-size: 45px;
+}
+
+.fs-50 {
+    font-size: 50px;
+}
+
+.fs-55 {
+    font-size: 55px;
+}
+
+.fs-60 {
+    font-size: 60px;
+}
+
+.fs-65 {
+    font-size: 65px;
+}
+
+.fs-70 {
+    font-size: 70px;
+}
+
+.fs-75 {
+    font-size: 75px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-80 {
+    font-size: 80px;
+}
+
+.fs-85 {
+    font-size: 85px;
+}
+
+.fs-90 {
+    font-size: 90px;
+}
+
+.fs-100 {
+    font-size: 100px;
+}
+
+.fs-105 {
+    font-size: 105px;
+}
+
+.fs-110 {
+    font-size: 110px;
+}
+
+.fs-115 {
+    font-size: 115px;
+}
+
+.fs-120 {
+    font-size: 120px;
+}
+
+.fs-125 {
+    font-size: 125px;
+}
+
+.fs-130 {
+    font-size: 130px;
+}
+
+.fs-135 {
+    font-size: 135px;
+}
+
+.fs-140 {
+    font-size: 140px;
+}
+
+.fs-145 {
+    font-size: 145px;
+}
+
+.fs-150 {
+    font-size: 150px;
+}
+
+.fs-155 {
+    font-size: 155px;
+}
+
+.fs-160 {
+    font-size: 160px;
+}
+
+.fs-165 {
+    font-size: 165px;
+}
+
+.fs-170 {
+    font-size: 170px;
+}
+
+.fs-180 {
+    font-size: 180px;
+}
+
+.fs-185 {
+    font-size: 185px;
+}
+
+.fs-190 {
+    font-size: 190px;
+}
+
+.fs-200 {
+    font-size: 200px;
+}
 /*Font weight*/
 
 .f-300 {
@@ -1453,7 +1633,7 @@ form * {
 .col-xl-9,
 .col-xl-auto {
     position: relative;
-    width: 100%;
+    /* width: 100%; */
     /* padding-right: 0px;
     padding-left: 0px; */
 }
@@ -1461,8 +1641,22 @@ form * {
 .theme-primary-color{
     color: #12bf7c;
 }
-
+.theme-secondary-color{
+    background-color: #F6FAF8;
+}
 .theme-primary-bg{
     background-color: #12bf7c;
+}
+.theme-primary-text-color{
+    font-size: 20px;
+font-weight: 600;
+letter-spacing: 3px;
+color: #12bf7c;
+}
+.relative{
+    position: relative !important;
+}
+.absolute{
+    position: absolute !important;
 }
 

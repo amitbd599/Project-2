@@ -2,6 +2,9 @@ import React from "react";
 import Footer from "../../Universal_Components/Footer";
 import Header from "../../Universal_Components/Header";
 import Home_heroSection from "./Home_heroSection";
+import Home_join_section from "./Home_join_section";
+import Home_section_part_1 from "./Home_section_part_1";
+import Home_Selected_Work from "./Home_Selected_Work";
 import Home_What_Do from "./Home_What_Do";
 
 const Home = () => {
@@ -14,6 +17,18 @@ const Home = () => {
 
       {/* What we do */}
       <Home_What_Do></Home_What_Do>
+
+      {/* SELECTED WORKS */}
+
+      <Home_Selected_Work></Home_Selected_Work>
+
+      {/* Section Part 1 */}
+
+      <Home_section_part_1></Home_section_part_1>
+
+      {/* Join section */}
+
+      <Home_join_section></Home_join_section>
       
       <Footer></Footer>
     </>
