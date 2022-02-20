@@ -16,12 +16,13 @@ const Home_join_section = () => {
           <Row className="pt-100">
             <Col>
               <div className="">
-                <div className="img_1">
-                  <img className="img-fluid " src={appImg3} alt="" />
-                </div>
-                <div className="img_2">
-                  <img className="img-fluid " src={appImg4} alt="" />
-                </div>
+              <span className="">
+                  <img className="img-fluid absolute img_2" src={appImg4} alt="" />
+                </span>
+                <span className="">
+                  <img className="img-fluid absolute img_1" src={appImg3} alt="" />
+                </span>
+               
               </div>
             </Col>
             <Col>
