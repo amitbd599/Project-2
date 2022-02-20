@@ -120,6 +120,10 @@
 
 .home-items-card {
   position: relative;
+  transition: all .4s linear;
+}
+.home-items-card:hover {
+  transform: translateY(-20px);
 }
 .home-items-card .wrap {
   text-align: center;
@@ -294,4 +298,51 @@
 }
 .Home_Team ul > li > a {
   color: #ffffff;
+}
+
+/* Home_Patner */
+
+.Home_Patner {
+}
+.Home_Patner img {
+  margin: 0 60px;
+}
+
+/* Footer */
+.footer {
+  background-color: #1d2146;
+  min-height: 500px;
+}
+.footer .social_icon ul > li {
+  display: inline-block;
+  margin-right:10px;
+  font-size: 20px;
+}
+.footer .social_icon ul > li>a {
+  color: #12bf7c;
+ 
+}
+.footer .social_icon ul > li>a:hover {
+  color: #fff;
+}
+.footer .secondPart a{
+  color: #ddd;
+  position: relative;
+}
+.footer .secondPart a::after{
+  position: absolute;
+    content: "";
+    display: block;
+    bottom: 5px;
+    height: 1px;
+    left: 0;
+    width: 100%;
+    transform-origin: right center;
+    transform: scale(0, 1);
+    transition: transform 0.25s cubic-bezier(0.37, 0.31, 0.2, 0.85), -webkit-transform 0.25s cubic-bezier(0.37, 0.31, 0.2, 0.85);
+  color: #12bf7c;
+  border-bottom: 1px solid #12bf7c;
+}
+.footer .secondPart a:hover::after{
+  width: 100%;
 }

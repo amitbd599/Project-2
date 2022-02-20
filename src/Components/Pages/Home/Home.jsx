@@ -3,6 +3,7 @@ import Footer from "../../Universal_Components/Footer";
 import Header from "../../Universal_Components/Header";
 import Home_heroSection from "./Home_heroSection";
 import Home_join_section from "./Home_join_section";
+import Home_Patners from "./Home_Patners";
 import Home_section_part_1 from "./Home_section_part_1";
 import Home_Selected_Work from "./Home_Selected_Work";
 import Home_Team from "./Home_Team";
@@ -34,6 +35,10 @@ const Home = () => {
       {/* Meet the team */}
 
       <Home_Team></Home_Team>
+
+      {/* Patner */}
+
+      <Home_Patners></Home_Patners>
       
       <Footer></Footer>
     </>
