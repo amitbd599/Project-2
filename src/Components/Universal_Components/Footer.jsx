@@ -118,6 +118,17 @@ const Footer = () => {
             </div>
           </Col>
         </Row>
+        <Row>
+          <Col>
+            <div className="wrap">
+              <hr />
+              <br />
+              <div className="text text-center">
+                <p className="text-light">© 2022 Saspik - All Rights Reserved Design by <a href="#" className="theme-primary-color">AmitJS</a></p>
+              </div>
+            </div>
+          </Col>
+        </Row>
       </Container>
     </div>
   );

@@ -305,10 +305,112 @@
   margin: 0 60px;
 }
 
+/* Page Info */
+
+.Page_Info {
+}
+.Page_Info h2 {
+  margin-top: 220px;
+  margin-bottom: 50px;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+}
+.Page_Info .shape {
+  position: absolute;
+  top: -570px;
+  left: -313px;
+}
+.Page_Info .animationPoint {
+  background-color: #12bf7c;
+  position: relative;
+  /* margin-top: 200px; */
+}
+.Page_Info .animationPoint ul > li:nth-child(1) {
+  top: 102px;
+  left: 142px;
+  border-radius: 50%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #12bf7c1f;
+  animation: pageBall 1.5s infinite alternate;
+}
+
+@keyframes pageBall {
+  0% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+.Page_Info .animationPoint ul > li:nth-child(2) {
+  top: 150px;
+  right: 212px;
+  border-radius: 50%;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: #12bf7c1f;
+  animation: pageBall2 2s infinite alternate;
+}
+
+@keyframes pageBall2 {
+  0% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+.Page_Info .animationPoint ul > li:nth-child(3) {
+  top: 236px;
+  right: 750px;
+  border-radius: 50%;
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  background-color: #12bf7d67;
+  z-index: -9;
+  animation: pageBall3 4s linear infinite alternate;
+}
+
+@keyframes pageBall3 {
+  0% {
+    transform: translate(0px);
+  }
+  100% {
+    transform: translate(230px);
+  }
+}
+
+/* About_BusinessHistory */
+
+.About_BusinessHistory p {
+  text-align: justify;
+}
+
+/* About_OurService */
+.About_OurService .myCardItem{
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px 25px;
+  transition: all .2s linear;
+}
+.About_OurService .myCardItem:hover{
+  box-shadow: -2px 0px 30px #c1c1c1, 9px 9px 26px #ffffff;
+  
+}
+.About_OurService .FaArrowRight{
+  font-size: 20px;
+  
+}
+
 /* Footer */
 .footer {
   background-color: #1d2146;
-  min-height: 500px;
+  min-height: 430px;
 }
 .footer .social_icon ul > li {
   display: inline-block;
@@ -347,4 +449,10 @@
 .footer .secondPart a:hover::after {
   transform-origin: left center;
   transform: scale(1, 1);
+}
+.footer .Newsletter p {
+  text-align: justify;
+}
+.footer hr {
+  color: #ddd;
 }

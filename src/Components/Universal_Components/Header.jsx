@@ -13,8 +13,8 @@ const Header = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="navControl">
           <Nav className="ms-auto">
-            <Nav.Link href="#features">Home</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link as={Link} to={'/'}>Home</Nav.Link>
+            <Nav.Link as={Link} to={'/about'}>About</Nav.Link>
             <NavDropdown
               title="Dropdown"
               id="collasible-nav-dropdown"
