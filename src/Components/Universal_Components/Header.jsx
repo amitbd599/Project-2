@@ -5,13 +5,13 @@ import logo from "../../Image/logo-three-1.png";
 
 const Header = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="ligth" variant="light">
+    <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className="fixed-top" >
       <Container>
         <Navbar.Brand href="#home">
           <img src={logo} alt="" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Collapse id="responsive-navbar-nav" className="navControl">
           <Nav className="ms-auto">
             <Nav.Link href="#features">Home</Nav.Link>
             <Nav.Link href="#pricing">Pricing</Nav.Link>
@@ -25,10 +25,8 @@ const Header = () => {
                 Another action
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
+              
+              
             </NavDropdown>
             <Nav.Link href="#features">Features</Nav.Link>
             <Nav.Link href="#pricing">Pricing</Nav.Link>

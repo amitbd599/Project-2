@@ -28,7 +28,7 @@ const Home_Selected_Work = () => {
       >
         <Container>
           <Row>
-            <Col sm={5}>
+            <Col sm={5} className='part_1'>
               <div className="wrap">
                 <h5 className=" fw-bold theme-primary-text-color">
                   SELECTED WORKS
@@ -40,14 +40,14 @@ const Home_Selected_Work = () => {
                   Some dodgy chav bugger all mate pukka bonnet jolly good
                   codswallop that bog.!
                 </p>
-                <div className="mt-30">
+                <div className="mt-30 button_1">
                   <div>
                     <Link  className={`${!img ? 'theme-primary-outline-bg theme-primary-bg  my-btn-primary rounded-pill' :'theme-primary-bg  my-btn-primary rounded-pill' }`}  onClick={hendelButton} >
                       <BiDesktop></BiDesktop> Website/App Design
                     </Link>
                   
                   </div>
-                  <div className="mt-30">
+                  <div className="mt-30 button_2">
                     <Link className="theme-primary-bg my-btn-primary rounded-pill">
                       <BsYoutube /> View On Youtube
                     </Link>
@@ -55,10 +55,10 @@ const Home_Selected_Work = () => {
                 </div>
               </div>
             </Col>
-            <Col sm={7} className="relative">
+            <Col sm={7} className="relative" className="part_2">
               <div id='img' className="selectedAppImg">
                {
-                 img ?  <img src={selectedApp1} alt="" /> : <img src={selectedApp2} alt="" />
+                 img ?  <img className="img-fluid" src={selectedApp1} alt="" /> : <img className="img-fluid" src={selectedApp2} alt="" />
                }
               </div>
               <div>

@@ -58,25 +58,63 @@ const Footer = () => {
             <div className="wrap secondPart">
               <h2 className="text-light fw-bold mb-20">Company</h2>
               <div className="linkId">
-                  <ul>
-                      <li><a href="#">Feature</a></li>
-                      <li><a href="#">Dashboard & Tool</a></li>
-                      <li><a href="#">Our Portfolio</a></li>
-                      <li><a href="#">Our Portfolio</a></li>
-                      <li><a href="#">About Us</a></li>
-                      <li><a href="#">Get In Touch</a></li>
-                  </ul>
+                <ul>
+                  <li>
+                    <a href="#">Feature</a>
+                  </li>
+                  <li>
+                    <a href="#">Dashboard & Tool</a>
+                  </li>
+                  <li>
+                    <a href="#">Our Portfolio</a>
+                  </li>
+                  <li>
+                    <a href="#">Our Portfolio</a>
+                  </li>
+                  <li>
+                    <a href="#">About Us</a>
+                  </li>
+                  <li>
+                    <a href="#">Get In Touch</a>
+                  </li>
+                </ul>
               </div>
             </div>
           </Col>
           <Col md={3}>
-            <div className="wrap">
-              <h2>Our Address</h2>
+            <div className="wrap secondPart">
+              <h2 className="text-light fw-bold mb-20">Service</h2>
+              <div className="linkId">
+                <ul>
+                  <li>
+                    <a href="#">Web Design</a>
+                  </li>
+                  <li>
+                    <a href="#">Development</a>
+                  </li>
+                  <li>
+                    <a href="#">Our Portfolio</a>
+                  </li>
+                  <li>
+                    <a href="#">WordPress</a>
+                  </li>
+                  <li>
+                    <a href="#">Online Marketing</a>
+                  </li>
+                  <li>
+                    <a href="#">Content</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </Col>
-          <Col md={3}>
+
+          <Col md={3} className="Newsletter">
             <div className="wrap">
-              <h2>Our Address</h2>
+              <h2 className="text-light fw-bold mb-20">Newsletter</h2>
+              <p className="text-light mt-15 text-justify">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur architecto doloribus labore. Autem, perspiciatis. Repudiandae eligendi excepturi facere, earum adipisci labore, dolores est debitis iure eum ut. Architecto tempora.
+              </p>
             </div>
           </Col>
         </Row>

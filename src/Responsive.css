@@ -1,0 +1,111 @@
+/* Home page Only */
+
+@media only screen and (max-width: 600px) {
+  .navbar-nav {
+    /* text-align: center; */
+  }
+  .navbar-collapse .my-btn-primary {
+    margin-left: 0px !important;
+
+  }
+  .navbar-nav{
+      margin-bottom: 20px;
+  }
+  .navControl{
+      padding-bottom: 25px;
+  }
+  .bannner-bg .ball {
+    display: none;
+  }
+  .introBar {
+    margin-top: 40px;
+  }
+  .heading-text .text-1,
+  .heading-text .text-2 {
+    line-height: 0px;
+    font-size: 36px;
+  }
+ .heroSection .my-btn-primary,
+ .Home_Selected_Work_container .my-btn-primary {
+    padding: 10px 24px;
+    display: block;
+  }
+  .imageSection {
+    position: absolute;
+    right: 0;
+  }
+  .home-items-card .wrap {
+    margin-bottom: 50px;
+  }
+  .Home_Selected_Work .container .row {
+    padding-top: 200px;
+  }
+  .dot {
+    position: absolute;
+    top: -389px;
+    left: 204px;
+  }
+  .leftFlower {
+    left: -15px;
+  }
+  .rightFlower {
+    right: -9px;
+  }
+  .Home_Selected_Work_container .button_2 {
+    margin-top: 20px;
+  }
+  .Home_Selected_Work_container .dotImg {
+    display: none;
+  }
+  .selectedAppImg {
+    margin-top: 30px;
+  }
+  .Home_Selected_Work .Home_Selected_Work_container {
+    min-height: 841px;
+  }
+  .Home_section_part_1 .mt-200 {
+    margin-top: 120px;
+  }
+  .Home_section_part_1 .app-download-image {
+    background-color: rgba(221, 221, 221, 0);
+    border-radius: 0%;
+    width: auto;
+    height: auto;
+  }
+  .Home_section_part_1 .mt-150 {
+    margin-top: 70px;
+  }
+  .Home_section_part_1 .part_2 {
+    order: 2;
+  }
+  .Home_join_section h2 {
+    font-size: 40px;
+  }
+  .Home_Team .mt-150 {
+    margin-top: 70px;
+  }
+  .Home_Team .myCardTeam {
+    margin-top: 40px;
+  }
+  .Home_Patner .mt-150 {
+    margin-top: 60px;
+  }
+  .Home_Patner img {
+    margin: 0 10px;
+  }
+  .footer .mt-150 {
+    margin-top: 60px;
+  }
+  .footer .pt-100 {
+    padding-top: 50px;
+  }
+  .footer .wrap.secondPart {
+    margin-top: 40px;
+  }
+  .footer .Newsletter {
+    margin-top: 20px;
+  }
+  .footer .Newsletter p {
+    text-align: justify;
+  }
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import dot from "../../../Image/dot.png";
 import ball from "../../../Image/ball.png";
 import shape from "../../../Image/triangle.png";
 import mobileLogo from "../../../Image/mockup-1.png";
@@ -12,9 +13,9 @@ import { BsYoutube } from "react-icons/bs";
 const Home_heroSection = () => {
   return (
     <>
-      <Container className="heroSection">
+      <Container className="heroSection pt-50">
         <Row>
-          <Col>
+          <Col md={6}>
             <div className="wrap">
               <div className="introBar">
                 <p className="theme-primary-bg text-theme-shape font-weight-bold text-light">
@@ -52,12 +53,13 @@ const Home_heroSection = () => {
               </div>
             </div>
           </Col>
-          <Col>
+          <Col md={6}>
             <div className="imageSection">
               <img className="img-fluid" src={mobileLogo} alt="" />
               <div className="circle-bg"></div>
               <img className="leftFlower" src={leftFlower} alt="" />
               <img className="rightFlower" src={rightFlower} alt="" />
+              <img className="dot" src={dot} alt="" />
             </div>
           </Col>
         </Row>

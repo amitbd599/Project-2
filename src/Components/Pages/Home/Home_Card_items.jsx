@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Home_Card_items = (props) => {
     const {img, title, text}=props;
     return (
-        <Col className='home-items-card'>
+        <Col md={4} className='home-items-card'>
         <div className="wrap">
             <img className='img-fluid' src={img} alt="" />
         <h5 className='mt-20 fw-bold'>{title}</h5>

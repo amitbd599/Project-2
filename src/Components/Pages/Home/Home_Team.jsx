@@ -18,10 +18,10 @@ const Home_Team = () => {
                     </Col>
                 </Row>
                 <Row className='mt-80'>
-                    <Col>
+                    <Col md={4}>
                         <div className="myCardTeam">
                             <div className="imageTeam">
-                                <img className='img-fluid' src={manImg1} alt="" />
+                                <img className='' src={manImg1} alt="" />
                                 <div className="overlayImg"></div>
                                 <ul className='absolute'>
                                     <li><a href="#"><BsFacebook/></a></li>
@@ -36,7 +36,7 @@ const Home_Team = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col>
+                    <Col md={4}>
                         <div className="myCardTeam">
                             <div className="imageTeam">
                                 <img className='img-fluid' src={manImg2} alt="" />
@@ -54,7 +54,7 @@ const Home_Team = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col>
+                    <Col md={4}>
                         <div className="myCardTeam">
                             <div className="imageTeam">
                                 <img className='img-fluid' src={manImg3} alt="" />

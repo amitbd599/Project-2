@@ -13,11 +13,11 @@ const Home_section_part_1 = () => {
         <Row className="mt-200">
           <Col md={6}>
             <div className="app-download-image text-center">
-              <img src={imgSection} alt="" />
+              <img className="img-fluid" src={imgSection} alt="" />
             </div>
           </Col>
 
-          <Col md={6}>
+          <Col md={6} className="part_1">
             <div className="wrap mt-10">
               <h2 className="fs-35 fw-bold ">
                 Quickly query and receive credit
@@ -64,7 +64,7 @@ const Home_section_part_1 = () => {
 
 
         <Row className="mt-150">
-          <Col>
+          <Col md={6} className="part_2">
             <div className="wrap mt-10">
               <h2 className="fs-35 fw-bold ">Set your own targets.</h2>
               <p className="fs-15 text-muted mt-20">
@@ -91,7 +91,7 @@ const Home_section_part_1 = () => {
                     support
                   </li>
                 </ul>
-                <div className="mt-40">
+                <div className="mt-40 myButton">
                   <Link className="theme-primary-bg my-btn-primary d-inline-block">
                     <div className="d-flex align-items-center">
                       <FaGooglePlay className="mr-10 fs-25" />
@@ -105,9 +105,9 @@ const Home_section_part_1 = () => {
               </div>
             </div>
           </Col>
-          <Col>
+          <Col md={6}>
             <div className="app-download-image text-center">
-              <img src={imgSection2} alt="" />
+              <img className="img-fluid" src={imgSection2} alt="" />
             </div>
           </Col>
         </Row>

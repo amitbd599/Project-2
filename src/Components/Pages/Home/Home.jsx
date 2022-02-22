@@ -39,6 +39,8 @@ const Home = () => {
       {/* Patner */}
 
       <Home_Patners></Home_Patners>
+
+      {/* Footer */}
       
       <Footer></Footer>
     </>

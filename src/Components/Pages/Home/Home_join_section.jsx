@@ -11,11 +11,11 @@ import { FaGooglePlay } from "react-icons/fa";
 const Home_join_section = () => {
   return (
     <>
-      <Container fluid className="Home_join_section">
+      <Container fluid className="Home_join_section"> 
         <Container>
           <Row className="pt-100">
-            <Col>
-              <div className="">
+            <Col md={6}>
+              <div className="d-md-block d-none">
               <span className="">
                   <img className="img-fluid absolute img_2" src={appImg4} alt="" />
                 </span>
@@ -25,7 +25,7 @@ const Home_join_section = () => {
                
               </div>
             </Col>
-            <Col>
+            <Col md={6}>
               <div className="wrap">
                 <h2 className="fs-60 fw-bold ">Join free for 7days</h2>
                 <p>

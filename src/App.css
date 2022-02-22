@@ -65,7 +65,7 @@
   font-weight: 700;
 }
 .bannner-bg {
-  position: absolute;
+  position: relative;
 
   top: 0;
   left: 0;
@@ -73,16 +73,17 @@
 .bannner-bg .ball {
   position: absolute;
   left: -13px;
-  top: 48px;
-  animation-name: fadeInDown;
+  top: -271px;
+  animation-name: roundShape 2s linear 1s alternate-reverse;
 }
+
 .bannner-bg .shape {
   position: absolute;
   left: 496px;
   top: 708px;
 }
 .imageSection {
-  position: absolute;
+  position: relative;
   right: -55px;
 }
 .circle-bg {
@@ -100,14 +101,20 @@
   position: absolute;
 }
 .leftFlower {
-  left: -93px;
+  left: -32px;
   z-index: -1;
-  bottom: 97px;
+  bottom: 285px;
+  width: 20%;
 }
 .rightFlower {
-  right: -69px;
-  bottom: 83px;
+  right: 34px;
+  bottom: 253px;
   z-index: -1;
+  width: 18%;
+}
+.dot {
+  position: absolute;
+  top: -62px;
 }
 
 /* What we Do */
@@ -120,7 +127,7 @@
 
 .home-items-card {
   position: relative;
-  transition: all .4s linear;
+  transition: all 0.4s linear;
 }
 .home-items-card:hover {
   transform: translateY(-20px);
@@ -163,16 +170,6 @@
 .selectedAppImg {
   /* transition: all 0.5s linear; */
   position: relative;
-  animation: fadeInDown 2s linear 1s alternate-reverse;
-}
-
-@keyframes fadeInDown {
-  0% {
-    transform: scale(110%);
-  }
-  100% {
-    transform: scale(100%);
-  }
 }
 
 /* Home_section_part_1 */
@@ -315,34 +312,39 @@
 }
 .footer .social_icon ul > li {
   display: inline-block;
-  margin-right:10px;
+  margin-right: 10px;
   font-size: 20px;
 }
-.footer .social_icon ul > li>a {
+.footer .social_icon ul > li > a {
   color: #12bf7c;
- 
 }
-.footer .social_icon ul > li>a:hover {
+.footer .social_icon ul > li > a:hover {
   color: #fff;
 }
-.footer .secondPart a{
+.footer .secondPart a {
   color: #ddd;
   position: relative;
 }
-.footer .secondPart a::after{
-  position: absolute;
-    content: "";
-    display: block;
-    bottom: 5px;
-    height: 1px;
-    left: 0;
-    width: 100%;
-    transform-origin: right center;
-    transform: scale(0, 1);
-    transition: transform 0.25s cubic-bezier(0.37, 0.31, 0.2, 0.85), -webkit-transform 0.25s cubic-bezier(0.37, 0.31, 0.2, 0.85);
+.footer .secondPart a:hover {
   color: #12bf7c;
-  border-bottom: 1px solid #12bf7c;
+  position: relative;
 }
-.footer .secondPart a:hover::after{
+.footer .secondPart a::after {
+  position: absolute;
+  content: "";
+  display: block;
+  bottom: -1px;
+  height: 2px;
+  left: 0;
   width: 100%;
+  transform-origin: right center;
+  transform: scale(0, 1);
+  transition: transform 0.25s cubic-bezier(0.37, 0.31, 0.2, 0.85),
+    -webkit-transform 0.25s cubic-bezier(0.37, 0.31, 0.2, 0.85);
+  color: #12bf7c;
+  border-bottom: 2px solid #12bf7c;
+}
+.footer .secondPart a:hover::after {
+  transform-origin: left center;
+  transform: scale(1, 1);
 }
