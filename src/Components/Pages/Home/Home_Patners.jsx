@@ -15,9 +15,9 @@ import img_10 from "../../../Image/logo/app1-1.png";
 const Home_Patners = () => {
   return (
     <>
-      <Container className="Home_Patner">
+      <Container className="Home_Patner mb-150">
         <Row className="mt-150">
-          <Col>
+          <Col md={6}>
             <div className="wrap">
               <h2 className=" fw-bold theme-primary-text-color">OUR CLIENTS</h2>
               <h2 className="fs-30 fw-bold mt-20">Our Partners</h2>
@@ -30,7 +30,7 @@ const Home_Patners = () => {
         </Row>
         <Row className="mt-50">
           <Col>
-            <Marquee>
+            <Marquee gradient={false}>
               <img src={img_1} alt="" />
               <img src={img_2} alt="" />
               <img src={img_3} alt="" />

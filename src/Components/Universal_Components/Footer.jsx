@@ -11,7 +11,7 @@ import {
 const Footer = () => {
   return (
     <div className="footer">
-      <Container className=" mt-150 ">
+      <Container className="  ">
         <Row className="pt-100">
           <Col md={3}>
             <div className="wrap">

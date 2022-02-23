@@ -24,7 +24,7 @@ const About_OurService = () => {
               <div className="">
                 <img className="text-center" src={img2} alt="" />
               </div>
-              <h2 className="fs-25 mt-40 ">New sharing made for people</h2>
+              <h2 className="fs-25 mt-40 theme-primary-color-hover">New sharing made for people</h2>
               <p className="fs-15 text-muted mt-15">
                 The full monty twit cracking goal Jeffrey lurgy chinwag bobby
                 vagabond David, I don't want no agro what a load.!
@@ -34,9 +34,17 @@ const About_OurService = () => {
                     <FaArrowRight /> <span>Learn More</span>
                   </Link>
               </div>
+              
              
             </div>
+            <div className="svgFile">
+            <svg class="layer" xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/1999/xlink" width="349px" height="270px">
+                <path fill-rule="evenodd" fill="rgb(253, 248, 248)" d="M-0.000,269.999 L-0.000,-0.001 L370.000,-0.001 C370.000,-0.001 347.889,107.879 188.862,112.181 C35.160,116.338 -0.000,269.999 -0.000,269.999 Z"></path>
+            </svg>
+              </div>
+            
           </div>
+          
         </Col>
         <Col md={4}>
           <div className="myCardItem">
@@ -44,7 +52,7 @@ const About_OurService = () => {
               <div className="">
                 <img className="text-center" src={img3} alt="" />
               </div>
-              <h2 className="fs-25 mt-40">One integrated solution Manage</h2>
+              <h2 className="fs-25 mt-40 theme-primary-color-hover">One integrated solution Manage</h2>
               <p className="fs-15 text-muted mt-15">
                 The full monty twit cracking goal Jeffrey lurgy chinwag bobby
                 vagabond David, I don't want no agro what a load.!
@@ -55,6 +63,11 @@ const About_OurService = () => {
                   </Link>
               </div>
             </div>
+            <div className="svgFile">
+            <svg class="layer" xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/1999/xlink" width="349px" height="270px">
+                <path fill-rule="evenodd" fill="rgb(253, 248, 248)" d="M-0.000,269.999 L-0.000,-0.001 L370.000,-0.001 C370.000,-0.001 347.889,107.879 188.862,112.181 C35.160,116.338 -0.000,269.999 -0.000,269.999 Z"></path>
+            </svg>
+              </div>
           </div>
         </Col>
         <Col md={4}>
@@ -63,7 +76,7 @@ const About_OurService = () => {
               <div className="">
                 <img className="text-center" src={img1} alt="" />
               </div>
-              <h2 className="fs-25 mt-40">
+              <h2 className="fs-25 mt-40 theme-primary-color-hover">
                 Thousand of features and Custom option.
               </h2>
               <p className="fs-15 text-muted mt-15">
@@ -76,6 +89,11 @@ const About_OurService = () => {
                   </Link>
               </div>
             </div>
+            <div className="svgFile">
+            <svg class="layer" xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/1999/xlink" width="349px" height="270px">
+                <path fill-rule="evenodd" fill="rgb(253, 248, 248)" d="M-0.000,269.999 L-0.000,-0.001 L370.000,-0.001 C370.000,-0.001 347.889,107.879 188.862,112.181 C35.160,116.338 -0.000,269.999 -0.000,269.999 Z"></path>
+            </svg>
+              </div>
           </div>
         </Col>
       </Row>

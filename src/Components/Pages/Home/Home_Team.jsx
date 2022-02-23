@@ -31,8 +31,8 @@ const Home_Team = () => {
                                 </ul>
                             </div>
                             <div className="textTeam mt-15 ml-20">
-                                <h2 className='fs-25 fw-bold'>Dylan Meringue</h2>
-                                <p className='text-muted'>Project Manager</p>
+                                <h2 className='fs-25 fw-bold'>Lockal Sida</h2>
+                                <p className='text-muted'>React Developer</p>
                             </div>
                         </div>
                     </Col>
@@ -49,8 +49,8 @@ const Home_Team = () => {
                                 </ul>
                             </div>
                             <div className="textTeam mt-15 ml-20">
-                                <h2 className='fs-25 fw-bold'>Dylan Meringue</h2>
-                                <p className='text-muted'>Project Manager</p>
+                                <h2 className='fs-25 fw-bold'>Maria Ena</h2>
+                                <p className='text-muted'>Software Developer</p>
                             </div>
                         </div>
                     </Col>
@@ -67,8 +67,8 @@ const Home_Team = () => {
                                 </ul>
                             </div>
                             <div className="textTeam mt-15 ml-20">
-                                <h2 className='fs-25 fw-bold'>Dylan Meringue</h2>
-                                <p className='text-muted'>Project Manager</p>
+                                <h2 className='fs-25 fw-bold'>Alex Jon</h2>
+                                <p className='text-muted'>Server Management</p>
                             </div>
                         </div>
                     </Col>
