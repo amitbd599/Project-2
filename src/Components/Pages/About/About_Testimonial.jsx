@@ -11,7 +11,7 @@ const About_Testimonial = () => {
   return (
     <Container fluid className="About_Testimonial mt-100">
       <Row>
-        <Col className="part_1 mt-120">
+        <Col className="part_1 mt-120" data-aos="fade-up">
           <div className="wrap text-center">
             <h3 className="fs-20 fw-bold theme-primary-color ">TESTIMONIAL</h3>
             <h2 className="fs-30 fw-bold mt-20">

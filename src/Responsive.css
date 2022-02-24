@@ -96,6 +96,64 @@
   .Home_Patner img {
     margin: 0 10px;
   }
+  .Page_Info {
+    margin-bottom: -29px;
+}
+.About_BusinessHistory .fs-40 {
+  font-size: 28px;
+}
+.text-end img{
+  margin-top: 30px;
+}
+.About_OurService .mt-120 {
+  margin-top: 70px;
+}
+.About_OurService .mt-100 {
+  margin-top: 50px;
+}
+.About_OurService .fs-40 {
+  font-size: 30px;
+}
+.About_OurService .myCardItem {
+  margin-bottom: 20px;
+}
+.About_CountZone .mt-120 {
+  margin-top: 50px;
+}
+.About_CountZone .fs-30 {
+  font-size: 23px;
+}
+.About_CountZone .part_2 .wrap{
+  padding-bottom: 20px;
+}
+.mt-100 {
+  margin-top: 45px;
+}
+.About_CountZone .part_3 .mt-80 {
+  margin-top: 35px;
+}
+.About_Testimonial .testimonialSlider {
+  padding: 40px 40px 0px 40px;
+  width: 369px;
+}
+.Home_Team .mt-80 {
+  margin-top: 20px;
+}
+.Home_Patner.mb-150 {
+  margin-bottom: 56px;
+  
+}
+.About_OverFlow .fs-45 {
+  font-size: 30px;
+}
+.Page_Info h2 {
+  font-size: 40px;
+}
+.share.pb-100 {
+  padding-bottom: 60px;
+}
+
+
   .footer .mt-150 {
     margin-top: 60px;
   }

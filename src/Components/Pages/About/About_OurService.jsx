@@ -11,7 +11,7 @@ const About_OurService = () => {
     <Container className="About_OurService">
       <Row>
         <Col className="mt-120">
-          <div className="wrap text-center ">
+          <div className="wrap text-center " data-aos="fade-up">
             <h3 className="fs-20 fw-bold theme-primary-color">OUR SERVICE</h3>
             <h2 className="fs-40 fw-bold mt-20">Why you choose Our plugin</h2>
           </div>
@@ -19,7 +19,7 @@ const About_OurService = () => {
       </Row>
       <Row className="mt-100">
         <Col md={4}>
-          <div className="myCardItem">
+          <div className="myCardItem" data-aos="fade-right">
             <div className="wrap">
               <div className="">
                 <img className="text-center" src={img2} alt="" />
@@ -47,7 +47,7 @@ const About_OurService = () => {
           
         </Col>
         <Col md={4}>
-          <div className="myCardItem">
+          <div className="myCardItem" data-aos="fade-up">
             <div className="wrap">
               <div className="">
                 <img className="text-center" src={img3} alt="" />
@@ -71,7 +71,7 @@ const About_OurService = () => {
           </div>
         </Col>
         <Col md={4}>
-          <div className="myCardItem">
+          <div className="myCardItem" data-aos="fade-left">
             <div className="wrap">
               <div className="">
                 <img className="text-center" src={img1} alt="" />

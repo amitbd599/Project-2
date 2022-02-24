@@ -70,7 +70,7 @@
 .bannner-bg .shape {
   position: absolute;
   left: 496px;
-  top: 708px;
+  top: 460px;
 }
 .imageSection {
   position: relative;
@@ -298,6 +298,8 @@
 /* Page Info */
 
 .Page_Info {
+  margin-bottom: 100px;
+  background-color:#FDF8F8 ;
 }
 .Page_Info h2 {
   margin-top: 220px;
@@ -305,6 +307,8 @@
   font-size: 60px;
   font-weight: 700;
   text-align: center;
+  z-index: 9;
+  position: relative;
 }
 .Page_Info .shape {
   position: absolute;
@@ -362,7 +366,7 @@
   width: 42px;
   height: 42px;
   background-color: #12bf7d67;
-  z-index: -9;
+  z-index: 1;
   animation: pageBall3 4s linear infinite alternate;
 }
 
@@ -487,6 +491,102 @@
   margin-right: 10px;
 }
 
+
+/* SideBar */
+
+.search-form label {
+  margin: 0;
+  width: 100%;
+}
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    word-wrap: normal !important;
+}
+.search-form .search-field {
+  background: transparent;
+  padding: 19px 10px 19px 30px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  border-radius: 45px;
+  width: 100%;
+  border: 1px solid #efe7e7;
+  transition: all 0.3s ease-in-out;
+}
+.search-form .search-field:focus {
+  box-shadow: 0px 20px 40px 0px rgb(79 35 35 / 10%);
+}
+
+.search-form button {
+  position: absolute;
+  border: 0;
+  background-color: #c7272700;
+  color: #9e9c97;
+  outline: 0;
+  padding: 0;
+  top: 31px;
+  right: 37px;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+.postRecent img{
+  width: 80%;
+  border-radius: 10px;
+}
+.postRecent p{
+ margin-top: 10px;
+ font-size: 15px;
+}
+.Categories li{
+  margin: 3px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #afafaf31;
+}
+.Categories li a{
+  color: #76747f;
+  font-size: 16px;
+ 
+}
+.Categories li a:hover{
+  color: #12bf7c;
+}
+.Popular_Tags .my-btn-primary{
+  padding: 9px 17px;
+  border-radius: 20px;
+}
+.Popular_Tags .wrap a{
+  margin: 3px 5px 4px 0px;
+  display: inline-block;
+}
+
+
+/* Blog_Single_Data */
+
+.Blog_Single_Data{
+ 
+}
+.Blog_Single_Data .imageFile img{   
+
+   width: 750px;
+}
+.Blog_Single_Data h2{
+    margin: 0 auto 15px;
+}
+.Blog_Single_Data .Popular_Tags .my-btn-primary {
+  padding: 6px 15px;
+  border-radius: 20px; 
+}
+.Blog_Single_Data .iconBox a{
+  font-size: 25px;
+  color: #76747f;
+}
+.Blog_Single_Data .iconBox a:hover{
+  color: #1A133B;
+}
 /* Footer */
 .footer {
   background-color: #1d2146;

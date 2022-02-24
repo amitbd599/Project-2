@@ -1624,6 +1624,9 @@ img {
   /* padding-right: 0px;
     padding-left: 0px; */
 }
+input:focus-visible {
+  outline-color: #ddd0;
+}
 
 .theme-primary-color {
   color: #12bf7c;

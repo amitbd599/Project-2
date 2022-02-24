@@ -8,7 +8,7 @@ const About_CountZone = () => {
   return (
     <Container className="About_CountZone">
       <Row>
-        <Col className="part_1 mt-120">
+        <Col className="part_1 mt-120" data-aos="fade-up">
           <div className="wrap text-center">
             <h3 className="fs-20 fw-bold theme-primary-color ">FUN FACTS</h3>
             <h2 className="fs-30 fw-bold mt-20">
@@ -17,8 +17,8 @@ const About_CountZone = () => {
           </div>
         </Col>
       </Row>
-      <Row className="mt-100">
-        <Col md={3}>
+      <Row className="mt-100 part_2">
+        <Col md={3} className=''>
           <div className="wrap text-center">
             <h2 className="fs-50 fw-bold color_1">
               <CountUp delay={2} end={600} /> K
@@ -52,7 +52,7 @@ const About_CountZone = () => {
         </Col>
       </Row>
       <Row>
-        <Col className="mt-80 text-center">
+        <Col className="mt-80 text-center part_3" data-aos="fade-up">
           <Link className="theme-primary-bg my-btn-primary">
             <FaArrowRight /> <span>See All Review</span>
           </Link>

@@ -22,14 +22,14 @@ const Home_section_part_1 = () => {
               <h2 className="fs-35 fw-bold ">
                 Quickly query and receive credit
               </h2>
-              <p className="fs-15 text-muted mt-20">
+              <p className="fs-15 text-muted mt-20" data-aos="fade-up">
                 Mufty chimney pot a blinding shot posh A bit of how's your
                 father barney
                 <br />
                 don't get shirty with me, nice one it's all gone.
               </p>
               <div>
-                <ul className="mt-20">
+                <ul className="mt-20" data-aos="fade-up">
                   <li>
                     {" "}
                     <BsArrowRight className="theme-primary-color" /> Quick
@@ -47,7 +47,7 @@ const Home_section_part_1 = () => {
                   </li>
                 </ul>
                 <div className="mt-40">
-                  <Link className="theme-primary-bg my-btn-primary d-inline-block">
+                  <Link className="theme-primary-bg my-btn-primary d-inline-block" data-aos="fade-up">
                     <div className="d-flex align-items-center">
                       <FaGooglePlay className="mr-10 fs-25" />
                       <span className="btn-two">
@@ -67,14 +67,14 @@ const Home_section_part_1 = () => {
           <Col md={6} className="part_2">
             <div className="wrap mt-10">
               <h2 className="fs-35 fw-bold ">Set your own targets.</h2>
-              <p className="fs-15 text-muted mt-20">
+              <p className="fs-15 text-muted mt-20" data-aos="fade-up">
                 Mufty chimney pot a blinding shot posh A bit of how's your
                 father barney don't get shirty with me, nice one it's all gone.
                 <br />
                 don't get shirty with me, nice one it's all gone.
               </p>
               <div>
-                <ul className="mt-20">
+                <ul className="mt-20" data-aos="fade-up">
                   <li>
                     {" "}
                     <BsArrowRight className="theme-primary-color" /> Quick

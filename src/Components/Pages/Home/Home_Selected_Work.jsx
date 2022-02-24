@@ -33,7 +33,7 @@ const Home_Selected_Work = () => {
                 <h5 className=" fw-bold theme-primary-text-color">
                   SELECTED WORKS
                 </h5>
-                <h2 className="fs-30 fw-bold mt-20">
+                <h2 className="fs-30 fw-bold mt-20" data-aos="fade-up">
                   Get to the best outcome.
                 </h2>
                 <p className="fs-15 text-muted mt-10">

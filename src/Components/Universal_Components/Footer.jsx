@@ -7,6 +7,7 @@ import {
   BsLinkedin,
   BsYoutube,
 } from "react-icons/bs";
+import { FaScroll } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -125,6 +126,7 @@ const Footer = () => {
               <br />
               <div className="text text-center">
                 <p className="text-light">© 2022 Saspik - All Rights Reserved Design by <a href="#" className="theme-primary-color">AmitJS</a></p>
+                <FaScroll/>
               </div>
             </div>
           </Col>

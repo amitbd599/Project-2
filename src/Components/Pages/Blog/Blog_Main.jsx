@@ -19,7 +19,7 @@ const Blog_Main = () => {
 
         {/* Blog Data Load */}
 
-        <Blog_Data_Load></Blog_Data_Load>
+        <Blog_Data_Load></Blog_Data_Load> 
 
         {/*  Blog_pagination */}
 

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import dot from "../../../Image/dot.png";
 import ball from "../../../Image/ball.png";
@@ -9,8 +9,16 @@ import rightFlower from "../../../Image/leaf2.png";
 import { Link } from "react-router-dom";
 import { BsBookHalf } from "react-icons/bs";
 import { BsYoutube } from "react-icons/bs";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Home_heroSection = () => {
+ useEffect(()=>{
+  AOS.init({
+    duration:"1000",
+    once: false,
+  });
+ },[])
   return (
     <>
       <Container className="heroSection pt-50">
@@ -23,7 +31,7 @@ const Home_heroSection = () => {
                 </p>
                 <p className=" ms-3">Best Mobile Exoland Apps</p>
               </div>
-              <div className="heading-text">
+              <div className="heading-text" >
                 <p className="text-1">Best Mobile</p> <br />
                 <p className="text-2">
                   <span className="theme-primary-color">App</span> Showcase
@@ -39,7 +47,7 @@ const Home_heroSection = () => {
                 Why I say old chap that is spiffing bits and bobs chimney pot
                 cracking goal bamboozled.!
               </p>
-              <div className="d-flex">
+              <div className="d-flex" data-aos="fade-up">
                 <div className="mt-30">
                   <Link className="theme-primary-bg my-btn-primary pt-30">
                     <BsBookHalf /> <span className="ms-">Get Started</span>
@@ -55,7 +63,7 @@ const Home_heroSection = () => {
           </Col>
           <Col md={6}>
             <div className="imageSection">
-              <img className="img-fluid" src={mobileLogo} alt="" />
+              <img className="img-fluid" src={mobileLogo} alt="" data-aos="zoom-in"/>
               <div className="circle-bg"></div>
               <img className="leftFlower" src={leftFlower} alt="" />
               <img className="rightFlower" src={rightFlower} alt="" />

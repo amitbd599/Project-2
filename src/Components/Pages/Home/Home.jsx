@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollToTop from "react-scroll-to-top";
 import Footer from "../../Universal_Components/Footer";
 import Header from "../../Universal_Components/Header";
 import Home_heroSection from "./Home_heroSection";
@@ -11,7 +12,7 @@ import Home_What_Do from "./Home_What_Do";
 
 const Home = () => {
   return (
-    <>
+    <>    
       <Header></Header>
 
       {/* Hero Section */}

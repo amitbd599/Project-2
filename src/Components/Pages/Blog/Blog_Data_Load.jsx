@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import SideBar from "../../Universal_Components/SideBar";
 
 const Blog_Data_Load = () => {
   return (
@@ -27,13 +28,16 @@ const Blog_Data_Load = () => {
               </p>
               <div className="mt-30">
               <Link className="theme-primary-bg my-btn-primary">
-                Sign Up Free
+                Read More
               </Link>
               </div>
             </div>
           </div>
         </Col>
-        <Col md={4}></Col>
+        <Col md={4}>
+          {/* Side Bar Lode here.. */}
+          <SideBar></SideBar>
+        </Col>
       </Row>
     </Container>
   );

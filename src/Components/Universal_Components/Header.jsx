@@ -21,7 +21,7 @@ const Header = () => {
               id="collasible-nav-dropdown"
               className=""
             >
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to={'/single-blog'}>Single Blog</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
               </NavDropdown.Item>

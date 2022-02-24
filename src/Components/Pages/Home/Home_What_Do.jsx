@@ -12,13 +12,13 @@ const Home_What_Do = () => {
       <Container>
         <Row>
           <Col className="what-we-do-text mb-100">
-            <div className="wrap text-center">
+            <div className="wrap text-center" data-aos="fade-up">
               <h4 className="theme-primary-color font-weight-bold">WHAT WE DO</h4>
               <h2>How can we Help You</h2>
             </div>
           </Col>
         </Row>
-        <Row>
+        <Row data-aos="fade-up">
           
             <Home_Card_items
               img={cardImg1}

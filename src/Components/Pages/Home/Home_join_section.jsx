@@ -17,24 +17,24 @@ const Home_join_section = () => {
             <Col md={6}>
               <div className="d-md-block d-none">
               <span className="">
-                  <img className="img-fluid absolute img_2" src={appImg4} alt="" />
+                  <img className="img-fluid absolute img_2" src={appImg4} alt="" data-aos="fade-right"/>
                 </span>
                 <span className="">
-                  <img className="img-fluid absolute img_1" src={appImg3} alt="" />
+                  <img className="img-fluid absolute img_1" src={appImg3} alt="" data-aos="fade-left"/>
                 </span>
                
               </div>
             </Col>
             <Col md={6}>
               <div className="wrap">
-                <h2 className="fs-60 fw-bold ">Join free for 7days</h2>
-                <p>
+                <h2 className="fs-60 fw-bold " data-aos="fade-up">Join free for 7days</h2>
+                <p data-aos="fade-up">
                   Mufty chimney pot a blinding shot posh A bit of how's your
                   father barney don't get.
                 </p>
               </div>
               <div className="mt-30">
-                <Link className="theme-primary-bg my-btn-primary d-inline-block ">
+                <Link className="theme-primary-bg my-btn-primary d-inline-block " data-aos="fade-up">
                   <div className="d-flex align-items-center">
                     <FaGooglePlay className="mr-10 fs-25" />
                     <span className="btn-two">
@@ -47,7 +47,7 @@ const Home_join_section = () => {
             </Col>
           </Row>
         </Container>
-        <div className="imgShape">
+        <div className="imgShape" >
           <div className="Home_join_section_Img_1">
             <img className=" " src={img1} alt="" />
           </div>

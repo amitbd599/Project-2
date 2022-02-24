@@ -18,7 +18,7 @@ const Home_Patners = () => {
       <Container className="Home_Patner mb-150">
         <Row className="mt-150">
           <Col md={6}>
-            <div className="wrap">
+            <div className="wrap" data-aos="fade-up">
               <h2 className=" fw-bold theme-primary-text-color">OUR CLIENTS</h2>
               <h2 className="fs-30 fw-bold mt-20">Our Partners</h2>
               <p className="fs-15 text-muted">

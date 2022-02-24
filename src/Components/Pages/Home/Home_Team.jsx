@@ -8,10 +8,10 @@ import manImg3 from '../../../Image/man3.jpg'
 const Home_Team = () => {
     return (
         <>
-            <Container className='Home_Team'>
+            <Container className='Home_Team' >
                 <Row className='mt-150'>
                     <Col>
-                    <div className="wrap">
+                    <div className="wrap" data-aos="zoom-in">
                         <h2 className=' fw-bold theme-primary-text-color'>MEET OUR TEAM</h2>
                         <h2 className='fs-30 fw-bold mt-20'>Meet The Team</h2>
                     </div>
@@ -19,7 +19,7 @@ const Home_Team = () => {
                 </Row>
                 <Row className='mt-80'>
                     <Col md={4}>
-                        <div className="myCardTeam">
+                        <div className="myCardTeam" data-aos="fade-right">
                             <div className="imageTeam">
                                 <img className='' src={manImg1} alt="" />
                                 <div className="overlayImg"></div>
@@ -37,7 +37,7 @@ const Home_Team = () => {
                         </div>
                     </Col>
                     <Col md={4}>
-                        <div className="myCardTeam">
+                        <div className="myCardTeam" data-aos="fade-up">
                             <div className="imageTeam">
                                 <img className='img-fluid' src={manImg2} alt="" />
                                 <div className="overlayImg"></div>
@@ -55,7 +55,7 @@ const Home_Team = () => {
                         </div>
                     </Col>
                     <Col md={4}>
-                        <div className="myCardTeam">
+                        <div className="myCardTeam" data-aos="fade-left">
                             <div className="imageTeam">
                                 <img className='img-fluid' src={manImg3} alt="" />
                                 <div className="overlayImg"></div>
