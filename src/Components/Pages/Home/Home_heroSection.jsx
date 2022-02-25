@@ -6,7 +6,7 @@ import shape from "../../../Image/triangle.png";
 import mobileLogo from "../../../Image/mockup-1.png";
 import leftFlower from "../../../Image/leaf1.png";
 import rightFlower from "../../../Image/leaf2.png";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { BsBookHalf } from "react-icons/bs";
 import { BsYoutube } from "react-icons/bs";
 import AOS from 'aos';
@@ -17,6 +17,7 @@ const Home_heroSection = () => {
   AOS.init({
     duration:"1000",
     once: false,
+    throttleDelay: 99
   });
  },[])
   return (
@@ -63,7 +64,7 @@ const Home_heroSection = () => {
           </Col>
           <Col md={6}>
             <div className="imageSection">
-              <img className="img-fluid" src={mobileLogo} alt="" data-aos="zoom-in"/>
+              <img className="img-fluid" src={mobileLogo} alt="" data-aos="zoom-in" />
               <div className="circle-bg"></div>
               <img className="leftFlower" src={leftFlower} alt="" />
               <img className="rightFlower" src={rightFlower} alt="" />

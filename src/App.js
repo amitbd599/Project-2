@@ -7,6 +7,7 @@ import About from "./Components/Pages/About/About";
 import Blog_Main from "./Components/Pages/Blog/Blog_Main";
 import Blog_Single_Page from "./Components/Pages/Blog/Blog_Single_Page";
 import ScrollToTop from "./Components/Universal_Components/ScrollToTop";
+import Service from "./Components/Pages/Service/Service";
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
           </Route>
           <Route exact path="/single-blog">
             <Blog_Single_Page />
+          </Route>
+          <Route exact path="/services">
+            <Service />
           </Route>
         </Switch>
         </ScrollToTop>
