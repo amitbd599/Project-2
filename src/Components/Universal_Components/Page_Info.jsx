@@ -9,7 +9,7 @@ const Page_Info = (props) => {
       <Container fluid className="Page_Info">
         <Row>
           <Col>
-            <div className="shape">
+            <div className="shape" data-aos="zoom-in-right">
               <svg
                 class="circle"
                 data-parallax='{"x" : -200}'

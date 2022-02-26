@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ScrollToTop smooth color="#6f00ff" />
+    <ScrollToTop smooth color="#12BF7C" />
     <App />
   </React.StrictMode>,
   document.getElementById('root')
