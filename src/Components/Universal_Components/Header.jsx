@@ -23,6 +23,7 @@ const Header = () => {
             >
               <NavDropdown.Item as={Link} to={'/single-blog'}>Single Blog</NavDropdown.Item>
               <NavDropdown.Item as={Link} to={'/services'}>Services</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to={'/pricing'}>Pricing</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
               </NavDropdown.Item>

@@ -9,7 +9,7 @@ const About_BusinessHistory = () => {
   useEffect(()=>{
     AOS.init({
       duration:"2000",
-      offset:'200'
+      
     });
    },[])
   return (

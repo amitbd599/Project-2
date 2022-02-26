@@ -711,6 +711,78 @@
     left: -539px;
     z-index: -9;
 }
+
+/* pricing */
+
+.price_info{
+  /* margin-top: 100px; */
+}
+.price_info .wrap {
+  padding: 0 265px;
+}
+.toggleBar{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.toggleBar span{
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.pricing-tab-switcher{
+  width: 114px;
+  height: 47px;
+  background: #dddddd0a;
+  position: relative;
+  border: 1px solid #ddd;
+  display: inline-block;
+  border-radius: 50px;
+  cursor: pointer;
+  transform: translateY(16px);
+}
+.pricing-tab-switcher::before {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  background: #12bf7c;
+  content: "";
+  border-radius: 50px;
+  top: 5px;
+  left: 7px;
+  transition: all .3s linear;
+  box-shadow: 0px 11px 30px 0px rgb(18 191 124);
+}
+.pricing-tab-switcher.active::before {
+  
+  left: 71px;
+}
+.pricing{
+  background: rgba(221, 221, 221, 0);
+}
+
+
+.pricing_part_2 .part_2 .wrap {
+  transition: all .2s linear;
+  background: #FCF7F7;
+  border-radius: 10px;
+    padding: 30px;
+}
+.pricing_part_2 .part_2 .wrap:hover {
+  background: #fff;
+  box-shadow: 0px 40px 80px 0px rgb(43 35 79 / 14%);
+}
+
+.Service_Price_plan.pricing_part_2 .part_2 .col-md-4:nth-child(1), .Service_Price_plan.pricing_part_2 .part_2 .col-md-4:nth-child(2),.Service_Price_plan.pricing_part_2 .part_2 .col-md-4:nth-child(3) {
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 1px solid rgba(221, 221, 221, 0);
+}
+
+
+
 /* Footer */
 .footer {
   background-color: #1d2146;

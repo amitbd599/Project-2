@@ -214,7 +214,7 @@ display: none !important;
   margin-left: 0px;
 }
 .jRFJkP, .cNNJIt {
-  display: none;
+  display: none !important;
 }
 .subscriber {
   padding-top: 63px;
@@ -229,7 +229,32 @@ display: none !important;
   width: 100%;
   margin-bottom: 15px;
 }
+.price_info .wrap {
+  margin-top: 100px;
+  padding: 0 0;
+}
+.price_info .fs-40 {
+  font-size: 31px;
+}
+.Pricing_info_part_2 .wrap {
+  margin-top: 0;
+  padding: 0 0;
+}
+.toggleBar {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.pricing .wrap {
+margin-bottom: 20px;
+}
+.pricing .pb-80 {
+  padding-bottom: 14px;
+}
 
+
+.subscriber {
+  margin-top: 0px;
+}
 .footer{
   margin-top: 0px;
 }

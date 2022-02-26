@@ -16,8 +16,6 @@ const Home_heroSection = () => {
  useEffect(()=>{
   AOS.init({
     duration:"1000",
-    once: false,
-    throttleDelay: 99
   });
  },[])
   return (
