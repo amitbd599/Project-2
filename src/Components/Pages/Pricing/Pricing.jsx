@@ -24,9 +24,9 @@ const Pricing = () => {
 
       <Subscriber></Subscriber>
 
-{/* Pricing  info part 2 */}
+      {/* Pricing  info part 2 */}
 
-<Pricing_info_part_2></Pricing_info_part_2>
+      <Pricing_info_part_2></Pricing_info_part_2>
 
       {/* Footer */}
 

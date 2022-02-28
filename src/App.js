@@ -9,6 +9,9 @@ import Blog_Single_Page from "./Components/Pages/Blog/Blog_Single_Page";
 import ScrollToTop from "./Components/Universal_Components/ScrollToTop";
 import Service from "./Components/Pages/Service/Service";
 import Pricing from "./Components/Pages/Pricing/Pricing";
+import Team from "./Components/Pages/Team/Team";
+import Faq from "./Components/Pages/Faq/Faq";
+import Portfolio from "./Components/Pages/Protfolio/Portfolio";
 
 function App() {
   return (
@@ -33,6 +36,15 @@ function App() {
           </Route>
           <Route exact path="/pricing">
             <Pricing />
+          </Route>
+          <Route exact path="/team">
+            <Team />
+          </Route>
+          <Route exact path="/faq">
+            <Faq />
+          </Route>
+          <Route exact path="/portfolio">
+            <Portfolio />
           </Route>
         </Switch>
         </ScrollToTop>

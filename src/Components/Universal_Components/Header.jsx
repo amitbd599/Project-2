@@ -24,12 +24,9 @@ const Header = () => {
               <NavDropdown.Item as={Link} to={'/single-blog'}>Single Blog</NavDropdown.Item>
               <NavDropdown.Item as={Link} to={'/services'}>Services</NavDropdown.Item>
               <NavDropdown.Item as={Link} to={'/pricing'}>Pricing</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              
-              
+              <NavDropdown.Item as={Link} to={'/team'}>Team</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to={'/faq'}>Faq</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to={'/portfolio'}>Portfolio</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#features">Features</Nav.Link>
             <Nav.Link href="#pricing">Pricing</Nav.Link>

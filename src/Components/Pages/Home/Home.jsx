@@ -2,6 +2,7 @@ import React from "react";
 import ScrollToTop from "react-scroll-to-top";
 import Footer from "../../Universal_Components/Footer";
 import Header from "../../Universal_Components/Header";
+import TeamData from "../../Universal_Components/TeamData";
 import Home_heroSection from "./Home_heroSection";
 import Home_join_section from "./Home_join_section";
 import Home_Patners from "./Home_Patners";
@@ -35,7 +36,7 @@ const Home = () => {
 
       {/* Meet the team */}
 
-      <Home_Team></Home_Team>
+      <TeamData></TeamData>
 
       {/* Patner */}
 

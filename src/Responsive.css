@@ -98,6 +98,7 @@
   }
   .Page_Info {
     margin-bottom: -29px;
+    overflow: hidden;
 }
 .About_BusinessHistory .fs-40 {
   font-size: 28px;
@@ -251,6 +252,17 @@ margin-bottom: 20px;
   padding-bottom: 14px;
 }
 
+/* Faq */
+
+.Faq_data .accordion {
+  padding: 0 0;
+}
+.Faq_data {
+  margin-top: 65px;
+}
+.Faq_data .nav-item{
+ margin: 10px 0;
+}
 
 .subscriber {
   margin-top: 0px;
