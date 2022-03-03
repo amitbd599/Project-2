@@ -1,34 +1,42 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Accordion, Col, Container, Row, Tab, Tabs } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 import myData from "./Portfolio_data";
 
 
 
 const Protfolio_Data = () => {
     
-
+    
+const [active, setActive]= useState(false);
     const [data, setData]=useState(myData);
     
 
    const hendelClick=(value)=>{
+    
     const  upDateData= myData.filter((curValue)=>{
         return curValue.position ===value;
     }) ;
     setData(upDateData);
+    setActive(!active);
+  
 }
   return <Container className="portfolio_data text-center">
       <Row className="part_1">
           <Col>
             <div className="wrap">
-                    <p onClick={()=>setData(myData)}>All Works</p>
-                    <p onClick={()=>hendelClick('designer')}>Branding</p>
-                    <p onClick={()=>hendelClick('developer')}> Design</p>
-                    <p> Development</p>
-                    <p> Ecommerce</p>
-                    <p> Development</p>
-                    <p> Marketing</p>
+                    <p className={active? "" :null} onClick={()=>setData(myData)}>All Works</p>
+                    <p className={active? "Branding" :null} onClick={()=>hendelClick('Branding')}>Branding</p>
+                    <p className={active? "Design" :null} onClick={()=>hendelClick('Design')}> Design</p>
+                    <p className={active? "" :null} onClick={()=>hendelClick('Development')}> Development</p>
+                    <p className={active? "" :null} onClick={()=>hendelClick('Ecommerce')}> Ecommerce</p>
+                    
             </div>
+            <div className="navbar">
+        
+      </div>
+
           </Col>
       </Row>
 

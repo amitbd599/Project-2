@@ -28,7 +28,7 @@ const Header = () => {
               <NavDropdown.Item as={Link} to={'/faq'}>Faq</NavDropdown.Item>
               <NavDropdown.Item as={Link} to={'/portfolio'}>Portfolio</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link as={Link} to={'/contact'}>Contact</Nav.Link>
             <Nav.Link href="#pricing">Pricing</Nav.Link>
           </Nav>
           <Link className="theme-primary-bg my-btn-primary ms-5">

@@ -671,7 +671,7 @@
   padding-bottom: 100px;
   background-image: linear-gradient(100deg, #fa7070 0%, #fa9770 100%);
 }
-.subscriber .col{
+.subscriber .col {
   margin: auto 120px auto 120px;
 }
 .formControl {
@@ -682,7 +682,7 @@
   padding: 2px 30px;
   background-color: #fa797000;
   color: #ddd;
-    border: 1px solid #dddddda1;
+  border: 1px solid #dddddda1;
 }
 .form-control:focus {
   color: #212529;
@@ -707,30 +707,30 @@
 .subscriber .shape {
   position: absolute;
   position: absolute;
-    top: -146px;
-    left: -539px;
-    z-index: -9;
+  top: -146px;
+  left: -539px;
+  z-index: -9;
 }
 
 /* pricing */
 
-.price_info{
+.price_info {
   /* margin-top: 100px; */
 }
 .price_info .wrap {
   padding: 0 265px;
 }
-.toggleBar{
+.toggleBar {
   margin-top: 70px;
   margin-bottom: 70px;
 }
-.toggleBar span{
+.toggleBar span {
   font-size: 16px;
   font-weight: 600;
   margin-right: 10px;
 }
 
-.pricing-tab-switcher{
+.pricing-tab-switcher {
   width: 114px;
   height: 47px;
   background: #dddddd0a;
@@ -751,92 +751,84 @@
   border-radius: 50px;
   top: 5px;
   left: 7px;
-  transition: all .3s linear;
+  transition: all 0.3s linear;
   box-shadow: 0px 11px 30px 0px rgb(18 191 124);
 }
 .pricing-tab-switcher.active::before {
-  
   left: 71px;
 }
-.pricing{
+.pricing {
   background: rgba(221, 221, 221, 0);
 }
 
-
 .pricing_part_2 .part_2 .wrap {
-  transition: all .2s linear;
-  background: #FCF7F7;
+  transition: all 0.2s linear;
+  background: #fcf7f7;
   border-radius: 10px;
-    padding: 30px;
-    transition: all .3s linear;
+  padding: 30px;
+  transition: all 0.3s linear;
 }
 .pricing_part_2 .part_2 .wrap:hover {
   background: #fff;
   box-shadow: 0px 40px 80px 0px rgb(43 35 79 / 14%);
 }
 
-.Service_Price_plan.pricing_part_2 .part_2 .col-md-4:nth-child(1), .Service_Price_plan.pricing_part_2 .part_2 .col-md-4:nth-child(2),.Service_Price_plan.pricing_part_2 .part_2 .col-md-4:nth-child(3) {
-    padding-top: 0px;
-    padding-right: 20px;
-    padding-left: 20px;
-    border-right: 1px solid rgba(221, 221, 221, 0);
+.Service_Price_plan.pricing_part_2 .part_2 .col-md-4:nth-child(1),
+.Service_Price_plan.pricing_part_2 .part_2 .col-md-4:nth-child(2),
+.Service_Price_plan.pricing_part_2 .part_2 .col-md-4:nth-child(3) {
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-right: 1px solid rgba(221, 221, 221, 0);
 }
 /* Faq  */
 
 .Faq_data {
-    height: auto;
-    margin-bottom: 100px;
-    
+  height: auto;
+  margin-bottom: 100px;
 }
-.Faq_data .nav-link{
+.Faq_data .nav-link {
   display: inline;
-    font-size: 18px;
-    padding: 10px 15px;
-    margin: 0 10px;
-    border-radius: 10px;
-    color: #1a133b;
-    cursor: pointer;
-
+  font-size: 18px;
+  padding: 10px 15px;
+  margin: 0 10px;
+  border-radius: 10px;
+  color: #1a133b;
+  cursor: pointer;
 }
-.Faq_data .nav-link.active{
+.Faq_data .nav-link.active {
   display: inline;
-    font-size: 18px;
-    padding: 10px 15px;
-    background: rgb(37, 37, 37);
-    margin: 0 10px;
-    border-radius: 10px;
-    color: #12bf7c;
-    cursor: pointer;
-
+  font-size: 18px;
+  padding: 10px 15px;
+  background: rgb(37, 37, 37);
+  margin: 0 10px;
+  border-radius: 10px;
+  color: #12bf7c;
+  cursor: pointer;
 }
-.Faq_data .nav-tabs{
-    margin: 0 10px;
-    border-radius: 10px;
-    color: #12bf7c;
-    cursor: pointer;
-    justify-content: center;
-    margin-bottom: 80px;
-
+.Faq_data .nav-tabs {
+  margin: 0 10px;
+  border-radius: 10px;
+  color: #12bf7c;
+  cursor: pointer;
+  justify-content: center;
+  margin-bottom: 80px;
 }
-.Faq_data .accordion{
-   padding: 0 200px;
-
+.Faq_data .accordion {
+  padding: 0 200px;
 }
-.Faq_data .accordion-body{
-    text-align: left !important;
-    font-size: 16px;
-    color: #76747f;
-
+.Faq_data .accordion-body {
+  text-align: left !important;
+  font-size: 16px;
+  color: #76747f;
 }
-.Faq_data .accordion-button{
-    font-size: 18px;
-    font-weight: 500;
-
+.Faq_data .accordion-button {
+  font-size: 18px;
+  font-weight: 500;
 }
-.Faq_data .accordion-item{
-    margin-top: 10px;
-    border: 0px solid rgba(0,0,0,.125);
-
+.Faq_data .accordion-item {
+  margin-top: 10px;
+  border: 0px solid rgba(0, 0, 0, 0.125);
 }
 .Faq_data .accordion-button:not(.collapsed) {
   color: #fff;
@@ -848,70 +840,94 @@
   border-bottom: 1px solid #dee2e600;
   padding-bottom: 60px;
 }
-.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
   border-color: #e9ecef #e9ecef #dee2e6;
   isolation: unset;
   border-radius: 10px;
 }
 
-
 /* portfolio */
 
-.portfolio_data{
+.portfolio_data {
   margin-top: 100px;
-  
 }
-.portfolio_data .part_1 p{
- display: inline-block;
- margin: 10px 15px;
- background: #12bf7c;
- padding: 10px 15px;
- border-radius: 10px;
- color: #fff;
-cursor: pointer;
+.portfolio_data .part_1 p {
+  display: inline-block;
+  margin: 10px 15px;
+  background: #12bf7c;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
 }
-.portfolio_data .wrap{
-position: relative;
+.portfolio_data .wrap {
+  position: relative;
 
-margin: 15px 10px;
+  margin: 15px 10px;
 }
 
-.portfolio_data .wrap img{
+.portfolio_data .wrap img {
   border-radius: 10px;
 }
-.portfolio_data .part_2 .wrap .overFlow{
+.portfolio_data .part_2 .wrap .overFlow {
   width: 100%;
   height: 100%;
-position: absolute;
-top: 0px;
-left: 0px;
-background: #12bf7d00;
-transition: all .2s linear;
-border-radius: 10px;
-
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: #12bf7d00;
+  transition: all 0.2s linear;
+  border-radius: 10px;
 }
-.portfolio_data .part_2 .wrap:hover .overFlow{
-background: #12bf7dcc;
-
+.portfolio_data .part_2 .wrap:hover .overFlow {
+  background: #12bf7dcc;
 }
-.portfolio_data .part_2 .text{
-position: absolute;
-top: 100px;
-left: 82px;
-z-index: 99;
-opacity: 0;
-transition: all .4s linear;
-
+.portfolio_data .part_2 .text {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  width: 100%;
+  z-index: 99;
+  opacity: 0;
+  transition: all 0.4s linear;
 }
-.portfolio_data .part_2 .wrap:hover .text{
- opacity: 1;
+.portfolio_data .part_2 .wrap:hover .text {
+  opacity: 1;
+}
+.portfolio_data .part_1 p:hover {
+  background: #1a133b;
+  color: #fff;
+}
+
+.error{
   
-  }
-.portfolio_data .part_1 p:hover{
- background: #1a133b;
- color: #fff;
+}
+.error img{
+  margin-top: 85px;
+}
+.error .mb-190 {
+  margin-bottom: 80px;
+}
+.contact_Form .part_1{
+
+}
+.contact_Form  .name,
+.contact_Form  .email,
+.contact_Form  .subject,
+.contact_Form  .massage{
+  width: 400px;
+  padding: 10px 20px;
+  border-radius: 30px;
 }
 
+.contact_Form  .subject,
+.contact_Form  .massage{
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
 /* Footer */
 .footer {
   background-color: #1d2146;

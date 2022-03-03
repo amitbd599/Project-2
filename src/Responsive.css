@@ -252,6 +252,12 @@ margin-bottom: 20px;
   padding-bottom: 14px;
 }
 
+/* Portfolio */
+
+.portfolio_data {
+  margin-top: 50px;
+}
+
 /* Faq */
 
 .Faq_data .accordion {
