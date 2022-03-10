@@ -342,11 +342,11 @@ const Service = () => {
                 </div>
               </div>
               <div className="slider">
-                <div className="wrap d-flex">
+                <div className="wrap d-flex ">
                   <div className="relative imgSection">
                     <img src="https://i.ibb.co/JdS4wTS/image.png" alt="" />
                     <img
-                      className="ImgFile"
+                      className="ImgFile d-none"
                       src="https://i.ibb.co/LrbTpv7/image.png"
                       alt=""
                     />
@@ -367,7 +367,7 @@ const Service = () => {
                   <div className="relative imgSection">
                     <img src="https://i.ibb.co/ww1CVfS/image.png" alt="" />
                     <img
-                      className="ImgFile"
+                      className="ImgFile d-none"
                       src="https://i.ibb.co/LrbTpv7/image.png"
                       alt=""
                     />

@@ -38,7 +38,7 @@ const About_OurService = () => {
              
             </div>
             <div className="svgFile">
-            <svg class="layer" xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/1999/xlink" width="349px" height="270px">
+            <svg class="layer" xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/1999/xlink" width="380px" height="270px">
                 <path fill-rule="evenodd" fill="rgb(253, 248, 248)" d="M-0.000,269.999 L-0.000,-0.001 L370.000,-0.001 C370.000,-0.001 347.889,107.879 188.862,112.181 C35.160,116.338 -0.000,269.999 -0.000,269.999 Z"></path>
             </svg>
               </div>
@@ -64,7 +64,7 @@ const About_OurService = () => {
               </div>
             </div>
             <div className="svgFile">
-            <svg class="layer" xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/1999/xlink" width="349px" height="270px">
+            <svg class="layer" xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/1999/xlink" width="380px" height="270px">
                 <path fill-rule="evenodd" fill="rgb(253, 248, 248)" d="M-0.000,269.999 L-0.000,-0.001 L370.000,-0.001 C370.000,-0.001 347.889,107.879 188.862,112.181 C35.160,116.338 -0.000,269.999 -0.000,269.999 Z"></path>
             </svg>
               </div>
@@ -90,7 +90,7 @@ const About_OurService = () => {
               </div>
             </div>
             <div className="svgFile">
-            <svg class="layer" xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/1999/xlink" width="349px" height="270px">
+            <svg class="layer" xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/1999/xlink" width="380px" height="270px">
                 <path fill-rule="evenodd" fill="rgb(253, 248, 248)" d="M-0.000,269.999 L-0.000,-0.001 L370.000,-0.001 C370.000,-0.001 347.889,107.879 188.862,112.181 C35.160,116.338 -0.000,269.999 -0.000,269.999 Z"></path>
             </svg>
               </div>

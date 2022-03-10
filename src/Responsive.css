@@ -273,6 +273,16 @@ margin-bottom: 20px;
 .subscriber {
   margin-top: 0px;
 }
+
+.contact_Form.container {
+  margin-top: 100px;
+}
+.contact_Form.container .part_2{
+  margin-top: 70px;
+}
+.contact_Form.container .ml-40 {
+  margin-left: 0px;
+}
 .footer{
   margin-top: 0px;
 }

@@ -2,7 +2,7 @@
   overflow: hidden !important;
 }
 .fixed-top {
-  height: 90px !important;
+  padding: 20px 0;
 }
 .styles_scroll-to-top__2A70v {
   z-index: 9999;
@@ -11,6 +11,7 @@
 .navbar-light .navbar-nav .nav-link {
   color: #2b235b !important;
   font-size: 18px;
+  margin: 0 10px;
 }
 .navbar-light .navbar-nav .nav-link:hover {
   color: #12bf7c !important;
@@ -20,7 +21,11 @@
   color: #1e2125;
   background-color: #12bf7c;
 }
-
+.dropdown-menu {
+  border: none;
+  min-width: 200px !important;
+  margin-top: 32px !important;
+}
 /* Hero Section */
 
 .heroSection {
@@ -76,15 +81,18 @@
   top: 460px;
 }
 .imageSection {
+  /* position: relative; */
+  /* right: -55px; */
+}
+.imageSection .mobile {
   position: relative;
-  right: -55px;
 }
 .circle-bg {
   position: absolute;
   border-radius: 50%;
-  height: 1000px;
-  width: 906px;
-  top: -17%;
+  height: 1052px;
+  width: 184%;
+  top: -28%;
   right: -42%;
   z-index: -1;
   background: #fdf5e8;
@@ -94,13 +102,13 @@
   position: absolute;
 }
 .leftFlower {
-  left: -32px;
+  left: 21px;
   z-index: -1;
-  bottom: 285px;
+  bottom: 253px;
   width: 20%;
 }
 .rightFlower {
-  right: 34px;
+  right: 72px;
   bottom: 253px;
   z-index: -1;
   width: 18%;
@@ -147,6 +155,9 @@
 }
 .Home_Selected_Work .container .row {
   padding-top: 300px;
+}
+.Home_Selected_Work .my-btn-primary {
+ cursor: pointer;
 }
 .dotImg {
   top: -28px;
@@ -900,34 +911,23 @@
   color: #fff;
 }
 
-.error{
-  
+.error {
 }
-.error img{
+.error img {
   margin-top: 85px;
 }
 .error .mb-190 {
   margin-bottom: 80px;
 }
-.contact_Form .part_1{
-
+.contact_Form .part_1 {
 }
-.contact_Form  .name,
-.contact_Form  .email,
-.contact_Form  .subject,
-.contact_Form  .massage{
-  width: 400px;
-  padding: 10px 20px;
-  border-radius: 30px;
+.contact_Form .form-control {
+  /* width: 49%;
+  display: inline-block !important; */
+  padding: 15px 20px;
+  border-radius: 15px;
 }
 
-.contact_Form  .subject,
-.contact_Form  .massage{
-  width: 100%;
-  padding: 10px 20px;
-  border-radius: 30px;
-  margin-top: 20px;
-}
 /* Footer */
 .footer {
   background-color: #1d2146;

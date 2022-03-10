@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className="fixed-top" >
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand as={Link} to={'/'}>
           <img src={logo} alt="" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -29,7 +29,6 @@ const Header = () => {
               <NavDropdown.Item as={Link} to={'/portfolio'}>Portfolio</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={Link} to={'/contact'}>Contact</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
           </Nav>
           <Link className="theme-primary-bg my-btn-primary ms-5">
             Sign Up Free

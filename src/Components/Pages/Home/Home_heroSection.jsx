@@ -62,10 +62,10 @@ const Home_heroSection = () => {
           </Col>
           <Col md={6}>
             <div className="imageSection">
-              <img className="img-fluid" src={mobileLogo} alt="" data-aos="zoom-in" />
+              <img className="img-fluid mobile" src={mobileLogo} alt="" data-aos="zoom-in" />
               <div className="circle-bg"></div>
-              <img className="leftFlower" src={leftFlower} alt="" />
-              <img className="rightFlower" src={rightFlower} alt="" />
+             
+            
               <img className="dot" src={dot} alt="" />
             </div>
           </Col>

@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import selectedApp1 from "../../../Image/selectApp1.jpg";
 import selectedApp2 from "../../../Image/selectApp2.jpg";
 import dotImg from "../../../Image/dot.png";
@@ -42,9 +42,9 @@ const Home_Selected_Work = () => {
                 </p>
                 <div className="mt-30 button_1">
                   <div>
-                    <Link  className={`${!img ? 'theme-primary-outline-bg theme-primary-bg  my-btn-primary rounded-pill' :'theme-primary-bg  my-btn-primary rounded-pill' }`}  onClick={hendelButton} >
-                      <BiDesktop></BiDesktop> Website/App Design
-                    </Link>
+                    <span  className={`${!img ? 'theme-primary-outline-bg theme-primary-bg  my-btn-primary rounded-pill' :'theme-primary-bg  my-btn-primary rounded-pill' }`}  onClick={hendelButton} >
+                      <BiDesktop></BiDesktop> {`${img? "Website/App Design": "WebDev/UI Designer"}`}
+                    </span>
                   
                   </div>
                   <div className="mt-30 button_2">
