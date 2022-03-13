@@ -1649,12 +1649,12 @@ input:focus-visible {
 .my-btn-primary {
   border: 2px solid #12bf7c;
   padding: 10px 40px;
-  color: #fff;
+  color: #fff !important;
   border-radius: 5px;
 }
 .my-btn-primary:hover {
   background-color: #fff;
-  color: #12bf7c;
+  color: #12bf7c !important;
   border: 2px solid #12bf7c;
 }
 .my-btn-primary-outline {

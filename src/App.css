@@ -26,6 +26,43 @@
   min-width: 200px !important;
   margin-top: 32px !important;
 }
+/* Header Section */
+.stellarnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.stellarnav>ul{
+  display: inline-block;
+}
+.stellarnav>ul>li a{
+  color: #2b235b !important;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 12px 25px;
+}
+.stellarnav>ul>li a:hover {
+  color: #12bf7c !important;
+}
+.stellarnav .dropdown a:hover {
+  color: #12bf7c !important;
+  
+}
+.dropdown a:focus,
+.dropdown a:hover {
+  color: #1e2125;
+}
+.dropdown>li a{
+  color: #ddd !important;
+}
+.stellarnav li.has-sub > a:after {
+  border-top: 6px solid #1e2125;
+}
+.stellarnav ul ul {
+  background: #fff;
+  box-shadow: 0px 15px 36px 4px rgb(79 35 35 / 10%);
+  padding: 10px;
+}
 /* Hero Section */
 
 .heroSection {
@@ -798,6 +835,9 @@
   height: auto;
   margin-bottom: 100px;
 }
+.Faq_data .nav{
+ position: unset;
+}
 .Faq_data .nav-link {
   display: inline;
   font-size: 18px;
@@ -932,6 +972,7 @@
 .footer {
   background-color: #1d2146;
   min-height: 430px;
+  position: relative;
 }
 .footer .social_icon ul > li {
   display: inline-block;
@@ -976,4 +1017,50 @@
 }
 .footer hr {
   color: #ddd;
+}
+.colorSpiner .wrap{
+  background-color: #2a2a2a;
+  width: 260px;
+  height: 100px;
+  position: fixed;
+  top: 156px;
+  right: 0;
+  padding: 15px 20px;
+  z-index: 999999;
+}
+.colorSpiner .myWrap{
+  display: flex;
+}
+.colorSpiner h3{
+  font-size: 20px;
+  margin-top: 10px;
+  color: #ddd;
+}
+.colorSpiner .block{
+  background-color: #fa7570;
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.colorSpiner .block:last-child{
+  margin-right: 0px;
+}
+.colorSpiner .IndianRed{
+  background-color: #CD5C5C;
+}
+.colorSpiner .HotPink{
+  background-color: #FF69B4;
+}
+.colorSpiner .HotPink{
+  background-color: #FF69B4;
+}
+.colorSpiner .Tomato{
+  background-color: #FF6347;
+}
+.colorSpiner .Magenta{
+  background-color: #FF00FF;
+}
+.colorSpiner .green{
+  background-color: #12bf7c;
 }

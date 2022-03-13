@@ -16,6 +16,7 @@ const Home_heroSection = () => {
  useEffect(()=>{
   AOS.init({
     duration:"1000",
+    once: true
   });
  },[])
   return (

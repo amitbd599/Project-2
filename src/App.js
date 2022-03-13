@@ -14,6 +14,7 @@ import Faq from "./Components/Pages/Faq/Faq";
 import Portfolio from "./Components/Pages/Protfolio/Portfolio";
 import Error from "./Components/Pages/Error/Error";
 import Contact from "./Components/Pages/Contact/Contact";
+import Dashbord from "./Dashbord/Page/Dashbord";
 
 function App() {
   return (
@@ -50,6 +51,9 @@ function App() {
           </Route>
           <Route exact path="/contact">
             <Contact />
+          </Route>
+          <Route exact path="/dashbord">
+            <Dashbord />
           </Route>
           <Route exact path="*">
             <Error />

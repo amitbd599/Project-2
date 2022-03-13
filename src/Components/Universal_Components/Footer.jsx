@@ -8,6 +8,7 @@ import {
   BsYoutube,
 } from "react-icons/bs";
 import { FaScroll } from "react-icons/fa";
+import ColorSpiner from "./ColorSpiner";
 
 const Footer = () => {
   return (
@@ -132,6 +133,8 @@ const Footer = () => {
           </Col>
         </Row>
       </Container>
+
+      <ColorSpiner></ColorSpiner>
     </div>
   );
 };
